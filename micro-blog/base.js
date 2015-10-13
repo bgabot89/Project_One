@@ -4,11 +4,12 @@ $(document).ready(function(){
 
   //when user clicks on submit button....
   $(submitButton).on("click",function(e){
-  	//console.log("Working!");
+  	//prevents default action from taking place
   	e.preventDefault();
   		var $searchInput = $(searchinput).val();
+      // appends input result into column 1
 		var $posts = '<div class="drag"  <li> # ' + $searchInput + ' </li>';
- //var $posts = $('<div class="drag" />').text('#anus');
+ //allows blog posts to be draggable
  $(".subsection").append($posts).draggable();
  ".subsection2".droppable();
     
@@ -26,17 +27,21 @@ var searchInput;
 function Blog(){
 this.$searchInput = searchInput;
 this.$button = $('submitButton');
+this.testButton = function(){
+  console.log ("Button clicked!");
+};
 }
 
 blog = new Blog();
 
+//tests to see if constructor works, will print "Button clicked!" on console
+blog.testButton();
 
 // creates an event with clicks via prototype method ~couldn't get to work
 
 
 Blog.prototype.Clicks = function (){
-	var button = this.button;
-	 $(button).on("click",function(e){
+	 (this.$button).on("click",function(e){
   	e.preventDefault();
   	alert('clicked a button!');
 
