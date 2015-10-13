@@ -1,0 +1,47 @@
+header {
+	font-size:100px;
+	margin-right:30px;
+	color:green;
+}
+
+#fiora {
+    background-image: url(http://i882.photobucket.com/albums/ac23/bgabot89/fiora_zpsh1fntqlj.png);
+}
+
+#fiora:hover {
+    background-image: url(http://i882.photobucket.com/albums/ac23/bgabot89/fiora2_zpsljlbsmsv.png);
+}
+
+.button {
+	color:blue;
+	width: 10em; height: 3em;
+	background-color: gray;
+}
+
+.button:hover{
+	background-color:yellow;
+}
+
+p{
+	font-size:20px;
+}
+
+.tabs{
+	font-size:20px;
+}
+
+.tabs:hover{
+	color:yellow;
+}
+
+.nav {
+	background-color: black;
+}
+
+.dropdown {
+	font-size:20px;
+}
+
+html {
+	background-color: rgba(255, 0, 0, 0.05);
+}

@@ -1,0 +1,34 @@
+body {	
+}
+
+/******************
+*			*
+* animal-specific ID's   *
+*			*
+******************/
+
+#mouse{
+	color:green;
+}
+
+#canary{
+}
+#penguin{
+
+}
+
+/**********************
+*			       *
+* kingdom-specific classes   *
+*			       *
+**********************/
+
+.bird{
+
+}
+.fish{
+
+}
+.mammal{
+	
+}
