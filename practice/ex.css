@@ -12,10 +12,27 @@ header {
     background-image: url(http://i882.photobucket.com/albums/ac23/bgabot89/fiora2_zpsljlbsmsv.png);
 }
 
+
 .button {
 	color:blue;
 	width: 10em; height: 3em;
 	background-color: gray;
+}
+
+#button1 {
+	border-radius:20px;
+}
+
+#button2 {
+	border-radius:20px;
+}
+
+#button3 {
+	border-radius:20px;
+}
+
+#button4 {
+	border-radius:20px;
 }
 
 .button:hover{

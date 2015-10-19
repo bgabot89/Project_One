@@ -1,0 +1,23 @@
+var array = [9,4,7,6];
+var newArray = [];
+var x;
+var count = 0;
+
+function bubbleSort(){
+while (count <array.length){
+    for (i=0; i<array.length; i++){
+	if(array[i] > array[i+1]){
+	x= array[i];
+	array[i] = array[i+1];
+	array[i+1] = x;
+    count ++;   
+	}
+
+}
+	}
+}
+	console.log(array);
+
+	bubbleSort(array);
+    
+    console.log(array);
